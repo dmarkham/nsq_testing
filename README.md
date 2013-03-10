@@ -12,7 +12,8 @@ nsq_testing
     Both were using 1 persistant connection.
     HTTP: had to move ~ 30% more data
     HTTP:  was about 4 times slower
-     
+    I'm convenced some of the slowdown is the byte size difference between the two. 
+    The rest is the overhead of building and parsing HTTP.
      
      
      
